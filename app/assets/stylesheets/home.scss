@@ -1,0 +1,30 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.post {
+    border: solid 1px;
+    border-color: lightgray;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+#profile {
+    border-color: lightgray;
+}
+
+#handle {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.card-body {
+    padding: 15px
+}

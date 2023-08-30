@@ -1,0 +1,16 @@
+<div class="container d-flex flex-column align-items-center">
+    <h1 id="welcome-title">Welcome to instagram</h1>
+    <%= link_to :about, url: about_path do %>
+        <h2>About</h2>
+    <% end %>
+    
+    <% if !flash[:alert].nil? %>
+      <div class="alert alert-danger"><%= flash[:alert] %></div>
+    <% end %>
+    <%= render 'devise/sessions/new' %>
+    <br>
+
+    <%= link_to :new_user_registration do %>
+        <p>Create new account</p>
+    <% end %>
+</div>
